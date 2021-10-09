@@ -1,0 +1,25 @@
+.myToast {
+  position: fixed;
+  width: 200px;
+  height: 50px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  border: 1px solid red;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.myToastContent {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.myToastAction {
+  display: flex;
+}
